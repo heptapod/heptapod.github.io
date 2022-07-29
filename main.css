@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('3.jpg');
+
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+section .row img {
+  margin: 30px 0 30px;
+  width: 100%;
+ 
+}
+
+.jb-a img {
+  margin: 0 0 30;
+  width: 100%;
+  
+}
+
+.jb-a {
+        width: 400px;
+        margin: 0px auto;
+        position: relative
+      }
+      .jb-c {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0;
+  transition: opacity 0.5s linear;
+      }
+      .jb-a:hover .jb-c {
+         opacity: 1;
+      }
+
+.jb-a {
+
+  overflow: hidden;
+}
+
+
+
+
+
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
